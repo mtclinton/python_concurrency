@@ -1,0 +1,6 @@
+python3 perf1_2.py
+nc localhost 25000  40
+
+input 40 for nc localhost 250000 and pref1_2 slows to 0 req/sec
+
+threadpool doesn't solve anything because it is running corountines and results blocks

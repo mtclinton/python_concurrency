@@ -1,0 +1,4 @@
+nc localhost 25000
+nc localhost 25000
+
+only one client can connect

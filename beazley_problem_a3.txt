@@ -1,0 +1,8 @@
+python3 perf1_2.py
+nc localhost 25000  40
+
+input 40 for nc localhost 250000 and pref1_2 slows to 25 req/sec
+
+coroutines still run in the GIL
+
+if you use ThreadPool you will have threads competing with coroutines and you are back to square one
