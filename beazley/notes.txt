@@ -1,0 +1,1 @@
+large amounts of sockets connections will be better under coroutines than threads
